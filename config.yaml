@@ -1,0 +1,11 @@
+influxdb:
+        host: "localhost"
+        user: "xxx"
+        password: "xxx"
+        port: 8086
+        dbname: "smog"
+plotly:
+        username: "xxx"
+        api_key: "xxx"
+        stream_ids: ["xxx"]
+        filename: "smog"
