@@ -5,7 +5,7 @@ from statistics import median
 from datetime import datetime
 from influxdb import InfluxDBClient
 from time import sleep
-from smog.config import conf
+from config import conf
 
 
 sensor = conf["sensor"]

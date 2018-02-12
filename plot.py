@@ -2,7 +2,6 @@
 
 
 import os
-import yaml
 import plotly.graph_objs as go
 from plotly.plotly import plot
 from plotly.tools import set_credentials_file
