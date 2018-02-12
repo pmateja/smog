@@ -1,6 +1,6 @@
 influxdb:
         host: "localhost"
-        user: "xxx"
+        username: "xxx"
         password: "xxx"
         port: 8086
         dbname: "smog"
@@ -9,3 +9,8 @@ plotly:
         api_key: "xxx"
         stream_ids: ["xxx"]
         filename: "smog"
+sensor:
+        port: '/dev/ttyUSB0'
+        host: "rpi0"
+        name: "sds011"
+        location: "50.282197, 18.655145"
